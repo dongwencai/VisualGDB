@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{b81ab6db-adc7-437a-a2d2-dc392433ce44}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{b63cb0e0-ecd9-4c37-ad91-edcd10aedd19}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{3c39b592-559c-4722-9c14-a01ac5323991}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{f352896f-9f1e-464d-bacc-6525a6e02c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{08936d8d-c387-49dd-9c29-c9ee3ffe6c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{8e9ffd9c-0f87-4cc7-85c3-596f403bc557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{24ab91d9-3b3d-4c7a-82c7-bdbea632646a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares">
+      <UniqueIdentifier>{7d462d3d-60dc-44de-a04d-76b5964c8cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\Third_Party">
+      <UniqueIdentifier>{5b98e93f-0c40-4169-ae0c-5673baa2efe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\Third_Party\FreeRTOS">
+      <UniqueIdentifier>{90089077-aabc-4e05-82a9-1806ef5bf665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\Third_Party\FreeRTOS\Source">
+      <UniqueIdentifier>{28c30849-8cdc-4d9a-96dc-505c596cf7a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\Third_Party\FreeRTOS\Source\include">
+      <UniqueIdentifier>{c9cbfa6a-2645-431d-8811-aad472be7710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\Third_Party\FreeRTOS\Source\portable">
+      <UniqueIdentifier>{a5801188-7ecc-456c-8daf-82dfbb6f7e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC">
+      <UniqueIdentifier>{1f113dfe-46ca-41cc-8c06-f11e0f8b64c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3">
+      <UniqueIdentifier>{169fcae8-5896-4bc4-b57c-4ef8797c71de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang">
+      <UniqueIdentifier>{448ee82b-d943-482b-b485-4929306b5c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares">
+      <UniqueIdentifier>{9afcd6c1-b39e-4158-bcae-68350a15c4a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\Third_Party">
+      <UniqueIdentifier>{e6b05078-7e37-4eea-a269-b4197729e845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\Third_Party\FreeRTOS">
+      <UniqueIdentifier>{3e823960-a683-46e0-88ff-d66d430d2729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\Third_Party\FreeRTOS\Source">
+      <UniqueIdentifier>{93ce1832-9aba-46e3-8971-54771fa657ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\Third_Party\FreeRTOS\Source\include">
+      <UniqueIdentifier>{4575fd0b-ab97-48d3-975e-664dad92d794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\Third_Party\FreeRTOS\Source\portable">
+      <UniqueIdentifier>{d43bb2ea-d526-4a58-8ed1-4701514cdc6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC">
+      <UniqueIdentifier>{bf8ac661-b547-4ae9-be14-e265b9a57a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3">
+      <UniqueIdentifier>{a81efaeb-6aa9-4460-aef9-df5141d6dd5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang">
+      <UniqueIdentifier>{bd5150be-26f5-4a96-96d4-690305126291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS">
+      <UniqueIdentifier>{ba0ab839-3215-48e8-b239-7e7d830d15db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS">
+      <UniqueIdentifier>{128fb165-5f6b-4c50-86ae-deae0ae2fff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Application">
+      <UniqueIdentifier>{cceb2b9f-21fc-4871-91b6-af25a929804d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Application">
+      <UniqueIdentifier>{d5473e33-a6ce-41c2-afea-0902acc58ada}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LEDBlink.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <None Include="nxp_lpc.mak">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\adc_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\can_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\chip_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\clock_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\cmp_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\crc_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\dac_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\eeprom_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\emc_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\enet_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\gpdma_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\gpioint_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\gpio_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\i2c_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\i2s_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\iocon_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\lcd_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\pmu_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\ritimer_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\rtc_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\sdc_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\sdmmc_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\spi_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\ssp_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\stopwatch_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\sysctl_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\sysinit_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\timer_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\uart_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\wwdt_17xx_40xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_common\fpu_init.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_common\iap.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_common\ring_buffer.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\Common\startup.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\LPC17xx_40xx\StartupFiles\ORIGINAL_cr_startup_lpc177x_8x.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\CMSIS\CMSIS\Include\arm_common_tables.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\CMSIS\CMSIS\Include\arm_math.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\CMSIS\CMSIS\Include\core_cm0.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\CMSIS\CMSIS\Include\core_cm0plus.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\CMSIS\CMSIS\Include\core_cm3.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\CMSIS\CMSIS\Include\core_cm4.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\CMSIS\CMSIS\Include\core_cm4_simd.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\CMSIS\CMSIS\Include\core_cmFunc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\CMSIS\CMSIS\Include\core_cmInstr.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\CMSIS\CMSIS\Include\core_sc000.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\CMSIS\CMSIS\Include\core_sc300.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\CMSIS\CMSIS\RTOS\cmsis_os.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\adc_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\can_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\chip.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\chip_lpc175x_6x.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\chip_lpc177x_8x.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\chip_lpc407x_8x.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\clock_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\cmp_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\cmsis.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\crc_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\dac_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\eeprom_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\emc_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\enet_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\fmc_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\gpdma_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\gpioint_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\gpio_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\i2c_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\i2s_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\iocon_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\lcd_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\mcpwm_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\pmu_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\qei_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\ritimer_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\romapi_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\rtc_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\sdc_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\sdmmc_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\spifi_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\spi_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\ssp_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\sysctl_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\timer_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\uart_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\usb_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\wwdt_17xx_40xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\config_175x_6x\cmsis_175x_6x.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_17xx_40xx\config_177x_8x\cmsis_177x_8x.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_common\eeprom.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_common\error.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_common\fpu_init.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_common\iap.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_common\lpc_types.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_common\ring_buffer.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_common\sdmmc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\chip_common\stopwatch.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\usbd_rom\usbd.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\usbd_rom\usbd_adc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\usbd_rom\usbd_cdc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\usbd_rom\usbd_cdcuser.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\usbd_rom\usbd_core.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\usbd_rom\usbd_desc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\usbd_rom\usbd_dfu.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\usbd_rom\usbd_dfuuser.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\usbd_rom\usbd_hid.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\usbd_rom\usbd_hiduser.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\usbd_rom\usbd_hw.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\usbd_rom\usbd_msc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\usbd_rom\usbd_mscuser.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\LPC17xx_40xx\lpc_chip_17xx\lpc_chip\usbd_rom\usbd_rom_api.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\Common\sys_config.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="VisualGDB-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="VisualGDB-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="nxp_lpc.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <ClCompile Include="..\Middlewares\Third_Party\FreeRTOS\Source\croutine.c">
+      <Filter>Source files\Middlewares\Third_Party\FreeRTOS\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c">
+      <Filter>Source files\Middlewares\Third_Party\FreeRTOS\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\Third_Party\FreeRTOS\Source\list.c">
+      <Filter>Source files\Middlewares\Third_Party\FreeRTOS\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\Third_Party\FreeRTOS\Source\queue.c">
+      <Filter>Source files\Middlewares\Third_Party\FreeRTOS\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c">
+      <Filter>Source files\Middlewares\Third_Party\FreeRTOS\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\Third_Party\FreeRTOS\Source\tasks.c">
+      <Filter>Source files\Middlewares\Third_Party\FreeRTOS\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\Third_Party\FreeRTOS\Source\timers.c">
+      <Filter>Source files\Middlewares\Third_Party\FreeRTOS\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.c">
+      <Filter>Source files\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c">
+      <Filter>Source files\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c">
+      <Filter>Source files\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Application\freertos.c">
+      <Filter>Source files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Application\uart.c">
+      <Filter>Source files\Application</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Middlewares\Third_Party\FreeRTOS\readme.txt">
+      <Filter>Source files\Middlewares\Third_Party\FreeRTOS</Filter>
+    </Text>
+    <Text Include="..\Middlewares\Third_Party\FreeRTOS\Source\readme.txt">
+      <Filter>Source files\Middlewares\Third_Party\FreeRTOS\Source</Filter>
+    </Text>
+    <Text Include="..\Middlewares\Third_Party\FreeRTOS\Source\portable\readme.txt">
+      <Filter>Source files\Middlewares\Third_Party\FreeRTOS\Source\portable</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Middlewares\Third_Party\FreeRTOS\Source\include\croutine.h">
+      <Filter>Header files\Middlewares\Third_Party\FreeRTOS\Source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FreeRTOS\Source\include\deprecated_definitions.h">
+      <Filter>Header files\Middlewares\Third_Party\FreeRTOS\Source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FreeRTOS\Source\include\event_groups.h">
+      <Filter>Header files\Middlewares\Third_Party\FreeRTOS\Source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h">
+      <Filter>Header files\Middlewares\Third_Party\FreeRTOS\Source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FreeRTOS\Source\include\list.h">
+      <Filter>Header files\Middlewares\Third_Party\FreeRTOS\Source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FreeRTOS\Source\include\message_buffer.h">
+      <Filter>Header files\Middlewares\Third_Party\FreeRTOS\Source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FreeRTOS\Source\include\mpu_prototypes.h">
+      <Filter>Header files\Middlewares\Third_Party\FreeRTOS\Source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FreeRTOS\Source\include\mpu_wrappers.h">
+      <Filter>Header files\Middlewares\Third_Party\FreeRTOS\Source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FreeRTOS\Source\include\portable.h">
+      <Filter>Header files\Middlewares\Third_Party\FreeRTOS\Source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FreeRTOS\Source\include\projdefs.h">
+      <Filter>Header files\Middlewares\Third_Party\FreeRTOS\Source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FreeRTOS\Source\include\queue.h">
+      <Filter>Header files\Middlewares\Third_Party\FreeRTOS\Source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FreeRTOS\Source\include\semphr.h">
+      <Filter>Header files\Middlewares\Third_Party\FreeRTOS\Source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FreeRTOS\Source\include\StackMacros.h">
+      <Filter>Header files\Middlewares\Third_Party\FreeRTOS\Source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FreeRTOS\Source\include\stack_macros.h">
+      <Filter>Header files\Middlewares\Third_Party\FreeRTOS\Source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FreeRTOS\Source\include\stream_buffer.h">
+      <Filter>Header files\Middlewares\Third_Party\FreeRTOS\Source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FreeRTOS\Source\include\task.h">
+      <Filter>Header files\Middlewares\Third_Party\FreeRTOS\Source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FreeRTOS\Source\include\timers.h">
+      <Filter>Header files\Middlewares\Third_Party\FreeRTOS\Source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\portmacro.h">
+      <Filter>Header files\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.h">
+      <Filter>Header files\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
